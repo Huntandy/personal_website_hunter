@@ -295,11 +295,11 @@ const date = ref(new Date().getDate());
 
 
 let zh = {
-    bannerName: `我是陳柏諺`, bannerIdentity: `前端網頁開發技術學習者`, home: `首頁`, about: `關於我`,
+    bannerName: `我是陳柏諺`, bannerIdentity: `前端網頁開發者`, home: `首頁`, about: `關於我`,
     skills: `我的技能`, project: `專案成就`, contact: `聯絡我`
   };
   let en = {
-    bannerName : `I'm Hunter Chen.`, bannerIdentity : `Front-End Development Learner`, home : `Home`, about : `About`, 
+    bannerName : `I'm Hunter Chen.`, bannerIdentity : `Front-End Developer`, home : `Home`, about : `About`, 
     skills : `Skills`, project : `Project`, contact : `Contact`
   };
 const isZH = ref(false);

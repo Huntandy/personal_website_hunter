@@ -289,7 +289,7 @@ export default {
 <script setup>
 import { ref, onMounted } from "vue";
 const year = ref(new Date().getFullYear());
-const month = ref(new Date().getMonth());
+const month = ref(new Date().getMonth()+1);
 const monthUSA = ref(new Date().toLocaleString('en-US', { month: 'long' }));
 const date = ref(new Date().getDate());
 

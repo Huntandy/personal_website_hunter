@@ -1,0 +1,150 @@
+To create a Vue.js project using Webpack, you can follow these steps:
+
+HHow to use webpack to create a vue.js project
+To create a Vue.js project using Webpack, you can follow these steps:
+Install Vue CLI:
+
+If you haven't already, install Vue CLI globally by running:
+Install Vue CLI ===> npm install -g @vue/cli
+Create a New Vue Project:
+
+Use Vue CLI to create a new project. Navigate to the directory where you want to create the project and run:
+Create Project ===> vue create my-vue-project
+Select Configuration:
+
+Vue CLI will prompt you to select a preset. Choose the default preset (Vue 3, Babel, ESLint) 
+or manually select features based on your project requirements.
+Navigate to Project Directory:
+
+Move into your project directory:
+Move intro Project Directory ===> cd my-vue-project
+Install Webpack:
+
+Webpack is already included in Vue CLI projects by default, so you don't need to install it separately.
+Run the Project:
+
+Start the development server to run your Vue project:
+Start Server ===> npm run serve
+Build the Project:
+
+To build the project for production, run:
+Build Project ===> npm run build
+Configuration (Optional):
+
+If you need to customize Webpack configuration, you can do so by creating a vue.config.js file in the root of your project. 
+Here you can modify the Webpack configuration using the configureWebpack option.
+By following these steps, you can create a Vue.js project using Vue CLI, 
+which comes preconfigured with Webpack to handle module bundling and development server setup. 
+This allows you to quickly set up and start working on your Vue.js project without having to manually configure Webpack.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML
+      <section id="bout-me" class="bout-me scroll-target d-flex">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 photograph">
+                      <!-- photograph -->
+                      <div class="img"></div>
+                      <div class="hollow-object"></div>
+                  </div>
+                  <div class="col-lg-6 intro">
+                      <!-- intro -->
+                      <div class="txt-container ">
+                          <p class="title">ABOUT ME</p>
+                          <h1>I'm Hunter Chen</h1>
+                          <p class="content">
+                              This part is going to be a short intro of me.This part is going to be a short intro of me.
+                              This part is going to be a short intro of me.This part is going to be a short intro of me.
+                              This part is going to be a short intro of me.This part is going to be a short intro of me.
+                              This part is going to be a short intro of me.This part is going to be a short intro of me.
+                          </p>
+                          <p class="content">
+                              This part is going to be a short intro of me.This part is going to be a short intro of me.
+                              This part is going to be a short intro of me.This part is going to be a short intro of me.
+                              This part is going
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="what-i-do" class="what-i-do scroll-target">
+          <div class="container">
+              <div class="wid-titles">
+                  <p class="title">WHAT I DO</p>
+                  <h1>SPECIALIZING IN</h1>
+              </div>
+              <div class="specialization row">
+                  <div class="first card col-md-6">
+                      <div class="img__title"> 
+                          <div class="img-container">
+                              <div class="img"></div>
+                          </div>
+                          <p class="title">
+                              Front-end<br>Development
+                          </p>
+                      </div>
+                      <p class="content">
+                          a short description a short desciption a short description a short description a short desciption a short description a short description a short description a short description
+                      </p>
+                  </div>
+                  <div class="second card col-md-6">
+                      <div class="img__title">
+                          <div class="img-container">
+                              <div class="img"></div>
+                          </div>
+                          <p class="title">
+                              English-Typing
+                          </p>
+                      </div>
+                      <p class="content">
+                          a short description a short desciption a short description a short description a short desciption a short description a short description a short description a short description
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="portfolio" class="portfolio scroll-target">
+          <div class="container">
+              <div class="txt-container">
+                  <p class="title">PORTFOLIO</p>
+                  <h1>LATEST PROJECTS</h1>
+              </div>
+              <div class="project-cards row">
+                  <div class="card">
+                      <div class="first project-img"></div>
+                      <div class="p__button">
+                          <p class="project-name">SeaFood App Design</p>
+                          <button class="demo">View Demo</button>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="second project-img"></div>
+                      <div class="p__button">
+                          <p class="project-name">Cafe Crossroads Web Design</p>
+                          <button class="demo">View Demo</button>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="third project-img"></div>
+                      <div class="p__button">
+                          <p class="project-name">Trap App Design</p>
+                          <button class="demo">View Demo</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>

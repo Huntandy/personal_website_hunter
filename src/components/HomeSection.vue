@@ -102,11 +102,10 @@
               <p class="content" v-if="isEN">
                 A bachelor of English from National Kaohsiung University of Science and Technology.
                 Hobbies are watching baseball games, playing mobile games and programming.
+                My special talent would be singing songs in 7 languages.
                 <br>
                 For front-end development, I could write HTML, CSS, and Javascript with Vue Framework.
                 For other programming languages, I'm famaliar with Python and knows C.
-                <br> 
-                My special talent would be singing songs in 7 languages.
               </p>
               <p class="content" v-if="isZH">
                 畢業於國立高雄科技大學應用英語系。我能用Vue框架寫出網頁，也會用Python寫網頁爬蟲、聊天機器人等。過去也曾接觸過C語言。

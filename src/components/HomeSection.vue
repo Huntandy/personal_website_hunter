@@ -99,24 +99,17 @@
               <p class="title" v-if="isEN">ABOUT ME</p>
               <p class="title" v-if="isZH">關於我</p>
               <h1 v-if="isEN">I'm Hunter Chen</h1>
-              <h1 v-if="isZH">我是陳柏諺</h1>
               <p class="content" v-if="isEN">
-                This part is going to be a short intro of me.This part is going to be a
-                short intro of me. This part is going to be a short intro of me.This part
-                is going to be a short intro of me. This part is going to be a short intro
-                of me.This part is going to be a short intro of me. This part is going to
-                be a short intro of me.This part is going to be a short intro of me.
+                A bachelor of English from National Kaohsiung University of Science and Technology.
+                <br> 
+                Hobbies are watching baseball games, playing mobile games and programming. 
+                My special talent would be singing songs in 7 languages.
+
               </p>
               <p class="content" v-if="isZH">
-                自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。
-              </p>
-              <p class="content" v-if="isEN">
-                This part is going to be a short intro of me.This part is going to be a
-                short intro of me. This part is going to be a short intro of me.This part
-                is going to be a short intro of me. This part is going
-              </p>
-              <p class="content" v-if="isZH">
-                自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。自我介紹。
+                畢業於國立高雄科技大學應用英語系。
+                <br>
+                我的興趣是看棒球、玩手遊跟寫程式。另外，我能用7種語言唱歌。
               </p>
             </div>
           </div>

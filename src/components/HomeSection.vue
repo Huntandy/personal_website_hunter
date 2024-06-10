@@ -101,10 +101,11 @@
               <h1 v-if="isEN">I'm Hunter Chen</h1>
               <p class="content" v-if="isEN">
                 A bachelor of English from National Kaohsiung University of Science and Technology.
+                Hobbies are watching baseball games, playing mobile games and programming.
+                <br>
                 For front-end development, I could write HTML, CSS, and Javascript with Vue Framework.
                 For other programming languages, I'm famaliar with Python and knows C.
                 <br> 
-                Hobbies are watching baseball games, playing mobile games and programming. 
                 My special talent would be singing songs in 7 languages.
               </p>
               <p class="content" v-if="isZH">

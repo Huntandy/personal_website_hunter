@@ -1066,6 +1066,13 @@ footer {
       align-items: center;
       height: 200%;
       flex-wrap: nowrap;
+      .intro{
+        .txt-container{
+          .title,h1{
+            text-align: center;
+          }
+        }
+      }
     }
   }
 

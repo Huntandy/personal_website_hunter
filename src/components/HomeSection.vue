@@ -1069,6 +1069,7 @@ footer {
       .intro{
         .txt-container{
           .title,h1{
+            display: block;
             text-align: center;
           }
         }

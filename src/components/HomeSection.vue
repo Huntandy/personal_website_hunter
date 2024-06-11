@@ -11,6 +11,7 @@
             width="50"
             height="50"
             class="d-inline-block align-text-top"
+            v-if = "noLogo"
           />
           <p>HunterC</p>
         </a>
@@ -283,11 +284,7 @@ export default {
 // Vue 3
 <script setup>
 import { ref, onMounted } from "vue";
-const year = ref(new Date().getFullYear());
-const month = ref(new Date().getMonth()+1);
-const monthUSA = ref(new Date().toLocaleString('en-US', { month: 'long' }));
-const date = ref(new Date().getDate());
-
+const noLogo = ref(false);
 
 let zh = {
     bannerName: `我是陳柏諺`, bannerIdentity: `前端網頁開發者`, home: `首頁`, about: `關於我`,
@@ -356,10 +353,11 @@ onMounted(() => {
   window.addEventListener("load", toggleScrollTop);
   document.addEventListener("scroll", toggleScrollTop);
 });
-// function translate(key,lang){
-//   if(isZH==true){ return zh[key] }
-//   else {return en[key]}
-// }
+
+const year = ref(new Date().getFullYear());
+const month = ref(new Date().getMonth()+1);
+const monthUSA = ref(new Date().toLocaleString('en-US', { month: 'long' }));
+const date = ref(new Date().getDate());
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -499,9 +497,7 @@ header {
   }
   .switch {
     position: relative;
-    /* display: inline-block; */
     margin: 0 2px;
-    margin-top: 10px;
   }
 
   .switch > span {

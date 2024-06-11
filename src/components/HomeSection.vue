@@ -99,6 +99,7 @@
               <p class="title" v-if="isEN">ABOUT ME</p>
               <p class="title" v-if="isZH">關於我</p>
               <h1 v-if="isEN">I'm Hunter Chen</h1>
+              <h1 v-if="isZH">我是陳柏諺</h1>
               <p class="content" v-if="isEN">
                 A bachelor of English from National Kaohsiung University of Science and Technology.
                 Hobbies are watching baseball games, playing mobile games and programming.
